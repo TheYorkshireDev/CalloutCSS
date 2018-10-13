@@ -1,0 +1,68 @@
+$note-color: #daeaf3;
+$note-border-color: #2980b9;
+$warning-color: #fdf5d4;
+$warning-border-color: #f1c40f;
+$danger-color: #f4dddb;
+$danger-border-color: #c0392b;
+$strong-colour: #464C5C;
+
+note-callout,
+warning-callout,
+danger-callout,
+note-callout-full,
+warning-callout-full,
+danger-callout-full {
+    display: block;
+
+    strong {
+        color: $strong-colour;
+    }
+}
+
+%note-shared {
+    margin: 16px 0;
+    padding: 12px;
+    background: $note-color;
+}
+
+%warning-shared {
+    margin: 16px 0;
+    padding: 12px;
+    background: $warning-color;
+}
+
+%danger-shared {
+    margin: 16px 0;
+    padding: 12px;
+    background: $danger-color;
+}
+
+note-callout {
+    @extend %note-shared;
+    border-left: 3px solid $note-border-color;
+}
+
+note-callout-full {
+    @extend %note-shared;
+    border: 3px solid $note-border-color;
+}
+
+warning-callout {
+    @extend %warning-shared;
+    border-left: 3px solid $warning-border-color;
+}
+
+warning-callout-full {
+    @extend %warning-shared;
+    border: 3px solid $warning-border-color;
+}
+
+danger-callout {
+    @extend %danger-shared;
+    border-left: 3px solid $danger-border-color;
+}
+
+danger-callout-full {
+    @extend %danger-shared;
+    border: 3px solid $danger-border-color;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "calloutcss",
+  "version": "1.0.0",
+  "description": "A set of CSS styles which allows for adding callouts to your website.",
+  "main": "dist/callout.min.css",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheYorkshireDev/CalloutCSS.git"
+  },
+  "keywords": [
+    "callout",
+    "callouts",
+    "css",
+    "web",
+    "front-end"
+  ],
+  "author": "TheYorkshireDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheYorkshireDev/CalloutCSS/issues"
+  },
+  "files": [
+    "dist/callout.min.css",
+    "dist/callout.css",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "homepage": "https://github.com/TheYorkshireDev/CalloutCSS#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
