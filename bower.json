@@ -1,0 +1,21 @@
+{
+    "name": "calloutcss",
+    "description": "A set of CSS styles which allows for adding callouts to your website.",
+    "keywords": [
+        "callout",
+        "callouts",
+        "css",
+        "web",
+        "front-end"
+      ],
+    "main": [
+        "dist/callout.min.css"
+    ],
+    "homepage": "https://github.com/TheYorkshireDev/CalloutCSS#readme",
+    "license": "MIT",
+    "author": "TheYorkshireDev",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/TheYorkshireDev/CalloutCSS.git"
+    }
+  }

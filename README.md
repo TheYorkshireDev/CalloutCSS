@@ -1,9 +1,15 @@
 # CalloutCSS
 
-An NPM component holding CSS definitions for callouts. No Javascript or dependencies, ideal
+A Bower and NPM component holding CSS definitions for callouts. No Javascript or dependencies, ideal
 for use in any project which wants to add callout functionality.
 
 ## Installation:
+
+#### Bower
+
+```bash
+$ bower install calloutcss
+```
 
 #### NPM
 
