@@ -9,7 +9,7 @@
         "front-end"
       ],
     "main": [
-        "dist/callout.min.css"
+        "dist/callout.css"
     ],
     "homepage": "https://github.com/TheYorkshireDev/CalloutCSS#readme",
     "license": "MIT",
