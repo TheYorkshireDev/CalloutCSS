@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CalloutCSS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/calloutcss@1.0.0/dist/callout.min.css"
+        integrity="sha256-SYSQemsIxvfjHJ04VeAy0VS4pH7i/0qZUwwz0vq5wXk= sha384-/RloR6ZLXi3i248Eyg42OhYXAkSHlAXR/5AhAV0zl8vq1kbnWFoiAuO+6065k9xA"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <main role="main" class="container">
+
+        <h1>CalloutCSS</h1>
+
+        <p class="mt-3">
+            Below are examples of the types of callouts you can add to your
+            website with CalloutCSS.
+        </p>
+
+        <ul>
+            <li><a href="#basic">Basic Callouts</a></li>
+            <li><a href="#full">Full Border Callouts</a></li>
+            <li><a href="#prefix">Prefix Keywords</a></li>
+        </ul>
+
+        <h2 id="basic">Basic Callouts</h2>
+        <p>
+            The basic callouts have three types; <code>note</code>, <code>warning</code>
+            and <code>danger</code> which come in blue, yellow and red
+            respectfully.
+            The design of the basic callout has a left border with a stronger
+            instance of the callout colour. The form of the basic callout are
+            <code>&lt;TYPE-callout>...&lt;/TYPE-callout></code>.
+            Below are examples of the basic callouts:
+        </p>
+
+        <h4>Note</h4>
+        <p>
+            <code>
+                &lt;note-callout>
+                    An example of a NOTE callout
+                &lt;/note-callout>
+            </code>
+        </p>
+
+        <note-callout>
+            An example of a NOTE callout
+        </note-callout>
+
+        <h4>Warning</h4>
+        <p>
+            <code>
+                &lt;warning-callout>
+                    An example of a WARNING callout
+                &lt;/warning-callout>
+            </code>
+        </p>
+
+        <warning-callout>
+            An example of a WARNING callout
+        </warning-callout>
+
+        <h4>Danger</h4>
+        <p>
+            <code>
+                &lt;danger-callout>
+                    An example of a DANGER callout
+                &lt;/danger-callout>
+            </code>
+        </p>
+
+        <danger-callout>
+            An example of a DANGER callout
+        </danger-callout>
+
+        <h2 id="full">Full Border Callouts</h2>
+        <p>
+            You can choose decorate your callouts with a full border style by
+            using <code>&lt;TYPE-callout-full>...&lt;/TYPE-callout-full></code>
+
+            Below are examples of the full border callouts:
+        </p>
+
+        <h4>Note</h4>
+        <p>
+            <code>
+                &lt;note-callout-full>
+                    An example of a NOTE callout
+                &lt;/note-callout-full>
+            </code>
+        </p>
+
+        <note-callout-full>
+            An example of a NOTE callout
+        </note-callout-full>
+
+        <h4>Warning</h4>
+        <p>
+            <code>
+                &lt;warning-callout-full>
+                    An example of a WARNING callout
+                &lt;/warning-callout-full>
+            </code>
+        </p>
+
+        <warning-callout-full>
+            An example of a WARNING callout
+        </warning-callout-full>
+
+        <h4>Danger</h4>
+        <p>
+            <code>
+                &lt;danger-callout-full>
+                    An example of a DANGER callout
+                &lt;/danger-callout-full>
+            </code>
+        </p>
+
+        <danger-callout-full>
+            An example of a DANGER callout
+        </danger-callout-full>
+
+        <h2 id="prefix">Prefix Keywords</h2>
+
+        <p>
+            You may choose to have the callout type or any other keyword as a
+            prefix for
+            the callout. You can add the <code>&lt;strong>Keyword&lt;/strong></code>
+            formatting to the callout to grab the user's attention further.
+
+            Below are examples of using the keyword prefix:
+        </p>
+
+        <p>
+            <code>
+                &lt;note-callout>
+                    &lt;strong>NOTE:&lt;/strong> An example of a NOTE callout
+                &lt;/note-callout>
+            </code>
+        </p>
+
+        <note-callout>
+            <strong>NOTE:</strong> An example of a NOTE callout
+        </note-callout>
+
+        <p>
+            <code>
+                &lt;warning-callout-full>
+                    &lt;strong>WARNING:&lt;/strong> An example of a WARNING callout
+                &lt;/warning-callout-full>
+            </code>
+        </p>
+
+        <warning-callout-full>
+            <strong>WARNING:</strong> An example of a WARNING callout
+        </warning-callout-full>
+
+        <p>
+            <code>
+                &lt;danger-callout-full>
+                    &lt;strong>ISSUE 1:&lt;/strong> An example of a DANGER callout
+                &lt;/danger-callout-full>
+            </code>
+        </p>
+
+        <danger-callout-full>
+            <strong>Issue 1:</strong> An example of a DANGER callout
+        </danger-callout-full>
+
+    </main>
+
+</body>
+
+</html>
